@@ -1,0 +1,468 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HW</title>
+    <!-- css link -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+  </head>
+  <body>
+    <header class="bg-dark">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" data-bs-theme="dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#ns-content" aria-controls="ns-content" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="ns-content">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled">Disabled</a>
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <section class="slider">
+      <div class="container">
+       <div class="row">
+        <div class="col-12">
+          <div id="c-example" class="carousel slide my-3" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#c-example" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#c-example" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#c-example" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="2000">
+                <img src="image/slide-3.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="image/slide-2.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="image/slide-4.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#c-example" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#c-example" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+       </div>
+      </div>
+    </section>
+    <section class="according">
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Accordion Item #1
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>Lorem ipsum dolor sit amet consectetur adipisicing elit</strong>. Exercitationem ducimus harum illo reiciendis quo illum delectus doloribus dolor! Dolores impedit magnam eos ex ea doloremque harum! Esse dolorum possimus debitis. <code>.click here</code>, though the transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Accordion Item #2
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>Lorem ipsum dolor sit amet consectetur adipisicing elit</strong>. Exercitationem ducimus harum illo reiciendis quo illum delectus doloribus dolor! Dolores impedit magnam eos ex ea doloremque harum! Esse dolorum possimus debitis. <code>.click here</code>, though the transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#cp" aria-expanded="false" aria-controls="cp">
+                    Accordion Item #3
+                  </button>
+                </h2>
+                <div id="cp" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>Lorem ipsum dolor sit amet consectetur adipisicing elit</strong>. Exercitationem ducimus harum illo reiciendis quo illum delectus doloribus dolor! Dolores impedit magnam eos ex ea doloremque harum! Esse dolorum possimus debitis. <code>.click here</code>, though the transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6">
+            <div class="accordion" id="accordionPanelsStayOpenExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                    Accordion Item #1
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
+                  <div class="accordion-body">
+                    <strong>Lorem ipsum dolor sit amet consectetur adipisicing elit</strong>. Exercitationem ducimus harum illo reiciendis quo illum delectus doloribus dolor! Dolores impedit magnam eos ex ea doloremque harum! Esse dolorum possimus debitis. <code>.click here</code>, though the transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                    Accordion Item #2
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                  <div class="accordion-body">
+                    <strong>Lorem ipsum dolor sit amet consectetur adipisicing elit</strong>. Exercitationem ducimus harum illo reiciendis quo illum delectus doloribus dolor! Dolores impedit magnam eos ex ea doloremque harum! Esse dolorum possimus debitis. <code>.click here</code>, though the transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-cp" aria-expanded="false" aria-controls="panelsStayOpen-cp">
+                    Accordion Item #3
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-cp" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                  <div class="accordion-body">
+                    <strong>Lorem ipsum dolor sit amet consectetur adipisicing elit</strong>. Exercitationem ducimus harum illo reiciendis quo illum delectus doloribus dolor! Dolores impedit magnam eos ex ea doloremque harum! Esse dolorum possimus debitis. <code>.click here</code>, though the transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 my-5">
+            <div class="alert alert-warning alert-dismissible fade show" role="alert">
+              <strong><a href="#" class="alert-link">Holy guacamole!</a></strong> You should check in on some of those fields below.
+              <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+          </div>
+          <div class="col-12 mb-5">
+            <button type="button" class="btn btn-primary position-relative">
+              Messages
+              <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                99+
+                <span class="visually-hidden">unread messages</span>
+              </span>
+            </button>
+          </div>
+          <div class="col-12 mb-5">
+            <button type="button" class="btn btn-outline-primary">Primary</button>
+            <button type="button" class="btn btn-outline-secondary">Secondary</button>
+            <button type="button" class="btn btn-outline-success">Success</button>
+            <button type="button" class="btn btn-outline-danger">Danger</button>
+            <button type="button" class="btn btn-outline-warning">Warning</button>
+            <button type="button" class="btn btn-outline-info">Info</button>
+            <button type="button" class="btn btn-outline-light">Light</button>
+            <button type="button" class="btn btn-outline-dark">Dark</button>
+          </div>
+          <div class="col-12">
+            <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+              <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+              <label class="btn btn-outline-primary" for="btnradio1">Radio 1</label>
+            
+              <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+              <label class="btn btn-outline-primary" for="btnradio2">Radio 2</label>
+            
+              <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+              <label class="btn btn-outline-primary" for="btnradio3">Radio 3</label>
+            </div>
+          </div>
+          <div class="col-12 my-5">
+            <div class="card" style="width: 18rem;">
+              <img src="image/slide-3.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 my-5">
+            <p>
+              <button class="btn btn-primary py-2 px-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+              Click here
+              </button>
+            </p>
+            <div style="min-height: 120px;">
+              <div class="collapse collapse-horizontal" id="collapseWidthExample">
+                <div class="card card-body" style="width: 300px;">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa cum sint eaque aliquam at ut pariatur maxime obcaecati aperiam eos quis ullam, similique.
+                </div>
+              </div>
+            </div>
+          </div>
+        <div class="col-6">
+         <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+ Sign up
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form class="row g-3">
+          <div class="col-md-6">
+            <label for="inputEmail4" class="form-label">Email</label>
+            <input type="email" class="form-control" id="inputEmail4">
+          </div>
+          <div class="col-md-6">
+            <label for="inputPassword4" class="form-label">Password</label>
+            <input type="password" class="form-control" id="inputPassword4">
+          </div>
+          <div class="col-12">
+            <label for="inputAddress" class="form-label">Address</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+          </div>
+          <div class="col-12">
+            <label for="inputAddress2" class="form-label">Address 2</label>
+            <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+          </div>
+          <div class="col-md-6">
+            <label for="inputCity" class="form-label">City</label>
+            <input type="text" class="form-control" id="inputCity">
+          </div>
+          <div class="col-md-4">
+            <label for="inputState" class="form-label">State</label>
+            <select id="inputState" class="form-select">
+              <option selected>Choose...</option>
+              <option>...</option>
+            </select>
+          </div>
+          <div class="col-md-2">
+            <label for="inputZip" class="form-label">Zip</label>
+            <input type="text" class="form-control" id="inputZip">
+          </div>
+          <div class="col-12">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck">
+              <label class="form-check-label" for="gridCheck">
+                Check me out
+              </label>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Sign up</button>
+      </div>
+    </div>
+  </div>
+</div>        
+        </div>
+        <div class="col-12 my-5">
+          <button class="btn btn-outline-danger py-2 px-5" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">
+            offcanvas
+          </button>
+          
+          <div class="offcanvas offcanvas-start" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop" aria-labelledby="staticBackdropLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="staticBackdropLabel">Javed Omor</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <div>
+               Lorem ipsum dolor sit amet.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12">          
+          <div class="card w-50 my-3" aria-hidden="true">
+            <img src="image/slide-4.jpg" class="card-img-top w-100" alt="...">
+            <div class="card-body">
+              <h5 class="card-title placeholder-glow">
+                <span class="placeholder col-6"></span>
+              </h5>
+              <p class="card-text placeholder-glow">
+                <span class="placeholder col-7"></span>
+                <span class="placeholder col-4"></span>
+                <span class="placeholder col-4"></span>
+                <span class="placeholder col-6"></span>
+                <span class="placeholder col-8"></span>
+              </p>
+              <a href="#" tabindex="-1" class="btn btn-primary disabled placeholder col-6"></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="progress my-3" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar bg-success" style="width: 25%">25%</div>
+          </div>
+          <div class="progress my-3" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar bg-info" style="width: 50%">50%</div>
+          </div>
+          <div class="progress my-3" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar bg-warning" style="width: 75%">75%</div>
+          </div>
+          <div class="progress my-3" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar bg-danger" style="width: 100%">100%</div>
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="row">
+            <div class="col-4">
+              <div id="list-example" class="list-group fixed">
+                <a class="list-group-item list-group-item-action" href="#list-item-1">Item 1</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-2">Item 2</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-3">Item 3</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-4">Item 4</a>
+              </div>
+            </div>
+            <div class="col-8">
+              <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+                <h4 id="list-item-1">Item 1</h4>
+                <p class="my-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus aut assumenda ducimus atque ipsum, ab facilis explicabo earum hic natus laudantium tenetur, odio praesentium cupiditate? Adipisci ipsum doloremque consequuntur similique est fuga, commodi quidem a veniam facilis aperiam tempora expedita provident perferendis placeat dolorem id enim itaque aliquam reiciendis at.</p>
+                <h4 id="list-item-2">Item 2</h4>
+                <p class="my-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo molestiae saepe ipsum delectus, eos fugiat autem corporis quis atque assumenda, consectetur tenetur magni consequuntur amet a? Consequatur, reiciendis sapiente tenetur soluta inventore aspernatur at vero ipsum dolor commodi numquam totam veniam doloribus praesentium, ex unde cupiditate, repellendus dignissimos sit cumque?</p>
+                <h4 id="list-item-3">Item 3</h4>
+                <p class="my-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi nemo vitae quibusdam accusantium eligendi excepturi inventore nihil optio? Quae voluptates laudantium praesentium, qui sequi corporis explicabo impedit asperiores temporibus distinctio quas eligendi fuga molestias tempore saepe accusamus odit eaque animi voluptatem modi molestiae nesciunt voluptas aperiam facilis. Doloribus, totam dolor.</p>
+                <h4 id="list-item-4">Item 4</h4>
+                <p class="my-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, earum harum nobis delectus temporibus nemo facilis culpa, quis repellendus dignissimos iure, quos ex beatae aperiam? Distinctio mollitia sapiente recusandae dolorem optio reprehenderit, quam doloremque cumque magnam totam. Voluptas temporibus vitae earum in hic eius necessitatibus, magni, maiores eum assumenda numquam.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 mb-5">
+          <button type="button" class="btn btn-secondary"
+        data-bs-toggle="tooltip" data-bs-placement="top"
+        data-bs-custom-class="custom-tooltip"
+        data-bs-title="click to Download">
+        Download now
+        </button>
+        </div>
+        <div class="col-12">
+          <div class="p-3 mb-2 bg-primary text-white">.bg-primary</div>
+<div class="p-3 mb-2 bg-primary-subtle text-emphasis-primary">.bg-primary-subtle</div>
+<div class="p-3 mb-2 bg-secondary text-white">.bg-secondary</div>
+<div class="p-3 mb-2 bg-secondary-subtle text-emphasis-secondary">.bg-secondary-subtle</div>
+<div class="p-3 mb-2 bg-success text-white">.bg-success</div>
+<div class="p-3 mb-2 bg-success-subtle text-emphasis-success">.bg-success-subtle</div>
+<div class="p-3 mb-2 bg-danger text-white">.bg-danger</div>
+<div class="p-3 mb-2 bg-danger-subtle text-emphasis-danger">.bg-danger-subtle</div>
+<div class="p-3 mb-2 bg-warning text-dark">.bg-warning</div>
+<div class="p-3 mb-2 bg-warning-subtle text-emphasis-warning">.bg-warning-subtle</div>
+<div class="p-3 mb-2 bg-info text-dark">.bg-info</div>
+<div class="p-3 mb-2 bg-info-subtle text-emphasis-info">.bg-info-subtle</div>
+<div class="p-3 mb-2 bg-light text-dark">.bg-light</div>
+<div class="p-3 mb-2 bg-light-subtle text-emphasis-light">.bg-light-subtle</div>
+<div class="p-3 mb-2 bg-dark text-white">.bg-dark</div>
+<div class="p-3 mb-2 bg-dark-subtle text-emphasis-dark">.bg-dark-subtle</div>
+<p class="p-3 mb-2 bg-body-secondary">.bg-body-secondary</p>
+<p class="p-3 mb-2 bg-body-tertiary">.bg-body-tertiary</p>
+
+<div class="p-3 mb-2 bg-body text-body">.bg-body</div>
+<div class="p-3 mb-2 bg-black text-white">.bg-black</div>
+<div class="p-3 mb-2 bg-white text-dark">.bg-white</div>
+<div class="p-3 mb-2 bg-transparent text-body">.bg-transparent</div>
+        </div>
+        <div class="col-12">
+          <div class="position-relative">
+            <div class="position-absolute top-0 start-0 translate-middle">
+              <div class="btn"></div>
+            </div>
+            <div class="position-absolute top-0 start-50 translate-middle">
+              <div class="btn"></div>
+            </div>
+            <div class="position-absolute top-0 start-100 translate-middle">
+              <div class="btn"></div>
+            </div>
+            <div class="position-absolute top-50 start-0 translate-middle">
+              <div class="btn"></div>
+            </div>
+            <div class="position-absolute top-50 start-50 translate-middle">
+              <div class="btn"></div>
+            </div>
+            <div class="position-absolute top-50 start-100 translate-middle">
+              <div class="btn"></div>
+            </div>
+            <div class="position-absolute top-100 start-0 translate-middle">
+              <div class="btn"></div>
+            </div>
+            <div class="position-absolute top-100 start-50 translate-middle">
+              <div class="btn"></div>
+            </div>
+            <div class="position-absolute top-100 start-100 translate-middle">
+              <div class="btn"></div>
+            </div>
+          </div>         
+        </div>
+        <div class="col-12">
+          <div class="shadow-none p-3 mb-5 bg-body-tertiary rounded">No shadow</div>
+<div class="shadow-sm p-3 mb-5 bg-body-tertiary rounded">Small shadow</div>
+<div class="shadow p-3 mb-5 bg-body-tertiary rounded">Regular shadow</div>
+<div class="shadow-lg p-3 mb-5 bg-body-tertiary rounded">Larger shadow</div>
+        </div>
+        <div class="col-12">
+          <p class="text-primary">.text-primary</p>
+<p class="text-primary-emphasis">.text-primary-emphasis</p>
+<p class="text-secondary">.text-secondary</p>
+<p class="text-secondary-emphasis">.text-secondary-emphasis</p>
+<p class="text-success">.text-success</p>
+<p class="text-success-emphasis">.text-success-emphasis</p>
+<p class="text-danger">.text-danger</p>
+<p class="text-danger-emphasis">.text-danger-emphasis</p>
+<p class="text-warning bg-dark">.text-warning</p>
+<p class="text-warning-emphasis">.text-warning-emphasis</p>
+<p class="text-info bg-dark">.text-info</p>
+<p class="text-info-emphasis">.text-info-emphasis</p>
+<p class="text-light bg-dark">.text-light</p>
+<p class="text-light-emphasis">.text-light-emphasis</p>
+<p class="text-dark bg-white">.text-dark</p>
+<p class="text-dark-emphasis">.text-dark-emphasis</p>
+<p class="text-body">.text-body</p>
+<p class="text-muted">.text-muted</p>
+        </div>
+      </div>          
+    </div>
+       
+    </section>
+
+    <!-- js link --> 
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,9 @@
+.carousel-indicators [data-bs-target] {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin: 0 5px;   
+}
+.custom-tooltip {
+    --bs-tooltip-bg: var(--bs-primary);
+  }
